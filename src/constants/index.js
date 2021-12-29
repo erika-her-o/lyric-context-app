@@ -1,7 +1,7 @@
 const cors_anywhere = "https://cors-anywhere.herokuapp.com/";
 const base_url = "http://api.musixmatch.com/ws/1.1/";
 const chart_tracks_get = "chart.tracks.get?chart_name=top&page=1&page_size=10&f_has_lyrics=1";
-const track_search="track.search?q_track";
+const track_search = "track.search?q_track=";
 const track_search_params="&page=1&page_size=10&f_has_lyrics=1&s_track_rating=desc";
 const tracks_lyrics_get="track.lyrics.get?commontrack_id=";
 const track_get="track.get?commontrack_id=";

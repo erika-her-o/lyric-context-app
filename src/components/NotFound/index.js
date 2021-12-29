@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Message from "./../Common/Message";
+import ButtonPrimary from "./../Common/ButtonPrimary";
 
-const NotFound = () => {
-    return (
-        <div>
-            <p> NOT FOUND</p>
-        </div>
-    )
-}
+const NotFound = () => (
+  <>
+    <Message text="404: URL Not Found" />
+    <ButtonPrimary type="back" to="/" />
+  </>
+);
 
 export default NotFound;
