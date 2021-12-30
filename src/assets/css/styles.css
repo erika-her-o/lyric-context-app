@@ -13,7 +13,7 @@ body {
 
 header {
 	align-items: center;
-	background-color: #525050 !important;
+	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%) !important;
 }
 
 ul {
